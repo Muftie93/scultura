@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'MonumentGrotesk';
+    src: url('~assets/fonts/ABCMonumentGroteskSemi-Mono-Regular.woff2') format('woff2'),
+         url('~assets/fonts/ABCMonumentGroteskSemi-Mono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: semi-mono;
+  }
+
+  /* Ensure Tailwind uses the custom font */
+  html {
+    @apply font-custom;
+  }
